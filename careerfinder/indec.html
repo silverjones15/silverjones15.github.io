@@ -1,0 +1,39 @@
+<html>
+<body>
+
+<p>CAREER FINDER APP</p>
+<p>Please select the skills you have-a.gaming, b- cooking, c-designing, d-space</p>
+
+<input id="myInput" type="text">
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  var text;
+  var fruits = document.getElementById("myInput").value;
+
+  switch(fruits) {
+    case "a":
+      text = "please choose a interest from the following:a. game programming, b. game testing, c.directing, d. script writing";
+    break;
+    case "b":
+    text = "please choose an interest from the following: a.travelling, b.art, c.programming, d.business";
+    break;
+    case "c":
+    text = "please choose an interest from the following: a- vehicles and driving, b- comics, c-dresses, d- movies";
+    break;
+    case "d":
+    text="please choose an interest from the following: a. wildlife plants and animals, b.sealife biology, c.machines, d.adventure";
+    break;
+    default:
+    text = "not yet available";
+  }
+  document.getElementById("demo").innerHTML = text;
+}
+</script>
+
+</body>
+</html>
