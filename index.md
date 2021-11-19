@@ -1,8 +1,7 @@
-## Welcome to GitHub Pages
+## CAREER FINDER APP
 
-You can use the [editor on GitHub](https://github.com/silverjones15/silverjones15.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
+A website app that lets you find what you would do best as a career and helps you be motivated towards the purpose of yours by letting you select skills that you have and compare with interest it gives you the best options to choose from to work at or to be.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
 ### Markdown
 
